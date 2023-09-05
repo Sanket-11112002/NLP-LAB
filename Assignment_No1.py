@@ -14,7 +14,7 @@ from collections import Counter
 print("\n##########   Sentence Detection    ###############\n")
 #Sentence Detection
 
-text1=("My name is Piyush "
+text1=("My name is Sanket "
        "I am the student of Information-technology"
        "My college name is Sanjivani College of Engineering, Kopargaon")
 
@@ -70,14 +70,14 @@ for token in about_doc:
 """
 ##########   Sentence Detection    ###############
 
-My name is Piyush I...
+My name is Sanket I...
 
 #############       Tokenization         ###############
 
 My 0
 name 3
 is 8
-Piyush 11
+Sanket 11
 I 18
 am 20
 the 23
@@ -114,7 +114,7 @@ nowhere
 she
 what
 whereby
-[Piyush, student, Information, -, technologyMy, college, Sanjivani, College, Engineering, ,, Kopargaon]
+[Sanket, student, Information, -, technologyMy, college, Sanjivani, College, Engineering, ,, Kopargaon]
 
 ###############          Lemmatization            ###############
 
